@@ -22,4 +22,5 @@
       "#config/*": ["./config/*.js"],
     },
   },
+  "exclude": ["./resources/**/*"]
 }
