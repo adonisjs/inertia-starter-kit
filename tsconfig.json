@@ -19,8 +19,8 @@
       "#database/*": ["./database/*.js"],
       "#tests/*": ["./tests/*.js"],
       "#start/*": ["./start/*.js"],
-      "#config/*": ["./config/*.js"],
-    },
+      "#config/*": ["./config/*.js"]
+    }
   },
   "exclude": ["./resources/**/*"]
 }
