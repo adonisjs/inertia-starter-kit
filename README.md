@@ -39,10 +39,8 @@ npm init adonisjs -- -K=inertia
 
 ### Configuring Lucid database dialect
 
-By default, the `npm init adonisjs` command configures Lucid to use `sqlite`. However, you can define a custom database dialect as follows.
-
 ```sh
-npm init adonisjs -- -K=web --db=postgres
+npm init adonisjs -- -K=inertia --db=postgres
 ```
 
 Available options for the `--db` flag.
@@ -54,10 +52,8 @@ Available options for the `--db` flag.
 
 ### Configuring Auth package guard
 
-By default, the `npm init adonisjs` command configures the Auth package to use `session` guard. However, you can define a custom auth guard as follows.
-
 ```sh
-npm init adonisjs -- -K=web --auth-guard=access_tokens
+npm init adonisjs -- -K=inertia --auth-guard=access_tokens
 ```
 
 Available options for the `--auth-guard` flag.
@@ -65,3 +61,17 @@ Available options for the `--auth-guard` flag.
 - session
 - basic_auth
 - access_tokens
+
+### Configuring Inertia
+
+You can pass the `--adapter` flag to configure the frontend adapter. Available options are `react`, `vue`, `solid`, and `svelte`.
+
+```sh
+npm init adonisjs -- -K=inertia --adapter=react
+```
+
+You can also pass the `--ssr` or `--no-ssr` flag to enable or disable server-side rendering.
+
+```sh
+npm init adonisjs -- -K=inertia --ssr
+```
