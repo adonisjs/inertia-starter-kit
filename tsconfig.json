@@ -22,5 +22,5 @@
       "#config/*": ["./config/*.js"]
     }
   },
-  "exclude": ["./resources/**/*"]
+  "exclude": ["./inertia/**/*"]
 }
