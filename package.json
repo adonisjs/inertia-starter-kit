@@ -57,7 +57,7 @@
     "@adonisjs/session": "^7.3.0",
     "@adonisjs/shield": "^8.1.1",
     "@adonisjs/static": "^1.1.1",
-    "@adonisjs/vite": "^3.0.0-10",
+    "@adonisjs/vite": "^3.0.0-11",
     "@vinejs/vine": "^1.8.0",
     "edge.js": "^6.0.2",
     "reflect-metadata": "^0.2.1"
