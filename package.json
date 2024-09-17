@@ -45,7 +45,7 @@
     "hot-hook": "^0.2.6",
     "pino-pretty": "^11.2.1",
     "prettier": "^3.3.2",
-    "ts-node": "^10.9.2",
+    "ts-node-maintained": "^10.9.4",
     "typescript": "^5.4.5",
     "vite": "^5.3.1"
   },
