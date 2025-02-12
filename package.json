@@ -70,16 +70,13 @@
     ]
   },
   "overrides": {
-    "@inertiajs/core": "2.0.0",
     "strtok3": "8.0.1"
   },
   "resolutions": {
-    "@inertiajs/core": "2.0.0",
     "strtok3": "8.0.1"
   },
   "pnpm": {
     "overrides": {
-      "@inertiajs/core": "2.0.0",
       "strtok3": "8.0.1"
     }
   },
